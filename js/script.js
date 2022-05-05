@@ -29,7 +29,7 @@ function toggleNavbar(){
   Active Section
 ----------------*/
 
-document.addEventListener("click", (e) =>{
+/*document.addEventListener("click", (e) =>{
 	if (e.target.classList.contains("link-item") && e.target.hash !== "") {
 		//activate the overlay to prevent multiple clicks
 		document.querySelector(".overlay").classList.add("active");
@@ -46,16 +46,17 @@ document.addEventListener("click", (e) =>{
 		setTimeout(() =>{
 			document.querySelector("section.active").classList.remove("active", "fade-out");
 			document.querySelector(e.target.hash).classList.add("active");
+			console.log(hash);
 			window.scrollTo(0,0);
 			document.body.classList.remove("hide-scrolling");
 			navToggler.classList.remove("hide");
 			document.querySelector(".overlay").classList.remove("active");
 		},500);
 	}
-});
+});*/
 
 /*----------------
-     About Tabs
+    About Tabs
 ----------------*/
 
 const tabsContainer = document.querySelector(".about-tabs"),
